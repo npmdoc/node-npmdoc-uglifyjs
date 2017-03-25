@@ -1,127 +1,143 @@
-<svg height="1982" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="1982" fill="#555" width="720"></rect>
+<svg height="2238" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="2238" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 <tspan x="10" y="42">&gt; npmdoc-uglifyjs@0.0.1 test /home/travis/build/npmdoc/node-npmdoc-uglifyjs</tspan>
 <tspan x="10" y="58">&gt; (set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)</tspan>
 <tspan x="10" y="74"></tspan>
 <tspan x="10" y="90"></tspan>
-<tspan x="10" y="106">[MODE_BUILD=npmTest] - 2017-03-21T18:24:27Z - npm-testing /home/travis/build/npmdoc/node-npmdoc-\</tspan>
+<tspan x="10" y="106">[MODE_BUILD=npmTest] - 2017-03-25T12:48:43Z - npm-testing /home/travis/build/npmdoc/node-npmdoc-\</tspan>
 <tspan x="10" y="122">uglifyjs</tspan>
 <tspan x="10" y="138"></tspan>
 <tspan x="10" y="154"></tspan>
-<tspan x="10" y="170">covering $ /home/travis/.nvm/versions/node/v7.7.3/bin/node /home/travis/build/npmdoc/node-npmdoc\</tspan>
-<tspan x="10" y="186">-uglifyjs/test.js</tspan>
+<tspan x="10" y="170">covering $ /home/travis/.nvm/versions/node/v6.10.1/bin/node /home/travis/build/npmdoc/node-npmdo\</tspan>
+<tspan x="10" y="186">c-uglifyjs/test.js</tspan>
 <tspan x="10" y="202">merging file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/build/test-report.json to test\</tspan>
 <tspan x="10" y="218">-report</tspan>
-<tspan x="10" y="234">&gt; server listening on http-port 40983</tspan>
+<tspan x="10" y="234">&gt; server listening on http-port 42934</tspan>
 <tspan x="10" y="250">created apidoc file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/build/apidoc.html</tspan>
 <tspan x="10" y="266"></tspan>
 <tspan x="10" y="282"></tspan>
 <tspan x="10" y="298">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/ele\</tspan>
-<tspan x="10" y="314">ctron.15af21cf8e40.7c95c4534b793.html</tspan>
+<tspan x="10" y="314">ctron.15b058309fb0.b553044801b8b.html</tspan>
 <tspan x="10" y="330"></tspan>
 <tspan x="10" y="346">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="362">merging file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/build/test-report.json to test\</tspan>
-<tspan x="10" y="378">-report</tspan>
-<tspan x="10" y="394">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="410">[4964:0321/182430:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="426">[4964:0321/182430:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="442">[4984:0321/182430:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
-<tspan x="10" y="458">in process gpu-process. </tspan>
-<tspan x="10" y="474">[4964:0321/182430:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
-<tspan x="10" y="490"></tspan>
-<tspan x="10" y="506">browserTest - opened url file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/build/apidoc.\</tspan>
-<tspan x="10" y="522">html</tspan>
-<tspan x="10" y="538"></tspan>
-<tspan x="10" y="554">[node test-case 1 of 6 passed] - testCase_buildLib_default</tspan>
-<tspan x="10" y="570">[node test-case 2 of 6 passed] - testCase_buildReadme_default</tspan>
-<tspan x="10" y="586">[node test-case 3 of 6 passed] - testCase_buildTest_default</tspan>
-<tspan x="10" y="602"></tspan>
-<tspan x="10" y="618">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/ele\</tspan>
-<tspan x="10" y="634">ctron.15af21d028b0.c66420407a455.html</tspan>
-<tspan x="10" y="650"></tspan>
-<tspan x="10" y="666">(node:4950) DeprecationWarning: node --debug is deprecated. Please use node --inspect instead.</tspan>
-<tspan x="10" y="682">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="698">&gt; server listening on http-port 41712</tspan>
-<tspan x="10" y="714">merging file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/build/test-report.json to test\</tspan>
-<tspan x="10" y="730">-report</tspan>
-<tspan x="10" y="746">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="762">[5030:0321/182432:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="778">[5030:0321/182432:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="794">[5054:0321/182432:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
-<tspan x="10" y="810">in process gpu-process. </tspan>
-<tspan x="10" y="826">[5030:0321/182432:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
-<tspan x="10" y="842"></tspan>
-<tspan x="10" y="858">browserTest - opened url http://127.0.0.1:40983?modeTest=1</tspan>
-<tspan x="10" y="874"></tspan>
-<tspan x="10" y="890">[5030:0321/182434:INFO:CONSOLE(203)] "----------|-----------|-----------|-----------|-----------\</tspan>
-<tspan x="10" y="906">|</tspan>
-<tspan x="10" y="922">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
-<tspan x="10" y="938">----------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="954">----------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="970">All files |       100 |       100 |       100 |       100 |</tspan>
-<tspan x="10" y="986">----------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="1002">", source: file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/electron.15af21d028b0.c6642\</tspan>
-<tspan x="10" y="1018">0407a455.html (203)</tspan>
-<tspan x="10" y="1034">[5030:0321/182434:INFO:CONSOLE(203)] "created coverage file:///tmp/build/coverage.html/index.htm\</tspan>
-<tspan x="10" y="1050">l", source: file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/electron.15af21d028b0.c664\</tspan>
-<tspan x="10" y="1066">20407a455.html (203)</tspan>
-<tspan x="10" y="1082"></tspan>
-<tspan x="10" y="1098">browserTest - created screen-capture file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/b\</tspan>
-<tspan x="10" y="1114">uild/screen-capture.npmTest.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-uglifyjs_2Ft\</tspan>
-<tspan x="10" y="1130">mp_2Fbuild_2Fapidoc.html.png</tspan>
-<tspan x="10" y="1146"></tspan>
-<tspan x="10" y="1162"></tspan>
-<tspan x="10" y="1178">browserTest - exit-code 0 - file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/build/apid\</tspan>
-<tspan x="10" y="1194">oc.html</tspan>
-<tspan x="10" y="1210"></tspan>
-<tspan x="10" y="1226">[node test-case 4 of 6 passed] - testCase_buildApidoc_default</tspan>
-<tspan x="10" y="1242">[node test-case 5 of 6 passed] - testCase_buildApp_default</tspan>
-<tspan x="10" y="1258"></tspan>
-<tspan x="10" y="1274">browserTest - created screen-capture file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/b\</tspan>
-<tspan x="10" y="1290">uild/screen-capture.npmTest.browser..png</tspan>
+<tspan x="10" y="362"></tspan>
+<tspan x="10" y="378">/home/travis/build/npmdoc/node-npmdoc-uglifyjs/node_modules/utility2/lib.utility2.sh.html.js</tspan>
+<tspan x="10" y="394"> #1 Line too long.</tspan>
+<tspan x="10" y="410">    process.stdout.write('export npm_package_' + key.replace((/\W/g), '_') + '=' + JSON.stringif\</tspan>
+<tspan x="10" y="426">y(value) + ';'); // Line 1445, Pos 116</tspan>
+<tspan x="10" y="442"></tspan>
+<tspan x="10" y="458">merging file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/build/test-report.json to test\</tspan>
+<tspan x="10" y="474">-report</tspan>
+<tspan x="10" y="490">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="506">[4898:0325/124846:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="522">[4898:0325/124846:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="538">[4915:0325/124846:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="554">in process gpu-process. </tspan>
+<tspan x="10" y="570"></tspan>
+<tspan x="10" y="586">browserTest - opened url file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/build/apidoc.\</tspan>
+<tspan x="10" y="602">html</tspan>
+<tspan x="10" y="618"></tspan>
+<tspan x="10" y="634">[node test-case 1 of 6 passed] - testCase_buildLib_default</tspan>
+<tspan x="10" y="650">[node test-case 2 of 6 passed] - testCase_buildReadme_default</tspan>
+<tspan x="10" y="666">[node test-case 3 of 6 passed] - testCase_buildTest_default</tspan>
+<tspan x="10" y="682"></tspan>
+<tspan x="10" y="698">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/ele\</tspan>
+<tspan x="10" y="714">ctron.15b0583148d0.2c3d7ae207ef4.html</tspan>
+<tspan x="10" y="730"></tspan>
+<tspan x="10" y="746">&gt; server listening on http-port 62166</tspan>
+<tspan x="10" y="762">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="778"></tspan>
+<tspan x="10" y="794">/home/travis/build/npmdoc/node-npmdoc-uglifyjs/node_modules/utility2/lib.utility2.sh.html.js</tspan>
+<tspan x="10" y="810"> #1 Line too long.</tspan>
+<tspan x="10" y="826">    process.stdout.write('export npm_package_' + key.replace((/\W/g), '_') + '=' + JSON.stringif\</tspan>
+<tspan x="10" y="842">y(value) + ';'); // Line 1445, Pos 116</tspan>
+<tspan x="10" y="858"></tspan>
+<tspan x="10" y="874">merging file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/build/test-report.json to test\</tspan>
+<tspan x="10" y="890">-report</tspan>
+<tspan x="10" y="906">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="922">[4969:0325/124848:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="938">[4969:0325/124848:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="954">[4988:0325/124848:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="970">in process gpu-process. </tspan>
+<tspan x="10" y="986">[4969:0325/124848:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="1002"></tspan>
+<tspan x="10" y="1018">browserTest - opened url http://127.0.0.1:42934?modeTest=1</tspan>
+<tspan x="10" y="1034"></tspan>
+<tspan x="10" y="1050">[4969:0325/124850:INFO:CONSOLE(203)] "----------|-----------|-----------|-----------|-----------\</tspan>
+<tspan x="10" y="1066">|</tspan>
+<tspan x="10" y="1082">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+<tspan x="10" y="1098">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1114">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1130">All files |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1146">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1162">", source: file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/electron.15b0583148d0.2c3d7\</tspan>
+<tspan x="10" y="1178">ae207ef4.html (203)</tspan>
+<tspan x="10" y="1194">[4969:0325/124850:INFO:CONSOLE(203)] "created coverage file:///tmp/build/coverage.html/index.htm\</tspan>
+<tspan x="10" y="1210">l", source: file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/electron.15b0583148d0.2c3d\</tspan>
+<tspan x="10" y="1226">7ae207ef4.html (203)</tspan>
+<tspan x="10" y="1242"></tspan>
+<tspan x="10" y="1258">browserTest - created screen-capture file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/b\</tspan>
+<tspan x="10" y="1274">uild/screen-capture.npmTest.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-uglifyjs_2Ft\</tspan>
+<tspan x="10" y="1290">mp_2Fbuild_2Fapidoc.html.png</tspan>
 <tspan x="10" y="1306"></tspan>
 <tspan x="10" y="1322"></tspan>
-<tspan x="10" y="1338">browserTest - exit-code 0 - http://127.0.0.1:40983?modeTest=1</tspan>
-<tspan x="10" y="1354"></tspan>
+<tspan x="10" y="1338">browserTest - exit-code 0 - file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/build/apid\</tspan>
+<tspan x="10" y="1354">oc.html</tspan>
 <tspan x="10" y="1370"></tspan>
-<tspan x="10" y="1386">browserTest - merged coverage from /home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/coverage.n\</tspan>
-<tspan x="10" y="1402">pmTest.browser.%2F.json</tspan>
+<tspan x="10" y="1386">[node test-case 4 of 6 passed] - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="1402">[node test-case 5 of 6 passed] - testCase_buildApp_default</tspan>
 <tspan x="10" y="1418"></tspan>
-<tspan x="10" y="1434"></tspan>
-<tspan x="10" y="1450">browserTest - merging test-report from /home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/test-r\</tspan>
-<tspan x="10" y="1466">eport.npmTest.browser.%2F.json</tspan>
+<tspan x="10" y="1434">browserTest - created screen-capture file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/b\</tspan>
+<tspan x="10" y="1450">uild/screen-capture.npmTest.browser..png</tspan>
+<tspan x="10" y="1466"></tspan>
 <tspan x="10" y="1482"></tspan>
-<tspan x="10" y="1498">[node test-case 6 of 6 passed] - testCase_webpage_default</tspan>
-<tspan x="10" y="1514">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="1530">File                         |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
-<tspan x="10" y="1546">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="1562">   node-npmdoc-uglifyjs/     |       100 |       100 |       100 |       100 |</tspan>
-<tspan x="10" y="1578">      example.js             |       100 |       100 |       100 |       100 |</tspan>
-<tspan x="10" y="1594">      lib.npmdoc_uglifyjs.js |       100 |       100 |       100 |       100 |</tspan>
-<tspan x="10" y="1610">      test.js                |       100 |       100 |       100 |       100 |</tspan>
-<tspan x="10" y="1626">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="1642">All files                    |       100 |       100 |       100 |       100 |</tspan>
-<tspan x="10" y="1658">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="1674"></tspan>
-<tspan x="10" y="1690">created coverage file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/build/coverage.html/i\</tspan>
-<tspan x="10" y="1706">ndex.html</tspan>
-<tspan x="10" y="1722">merging file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/build/test-report.json to test\</tspan>
-<tspan x="10" y="1738">-report</tspan>
-<tspan x="10" y="1754"></tspan>
-<tspan x="10" y="1770">-------------------------------------------------------</tspan>
-<tspan x="10" y="1786">| test-report - buildNpmdoc - node - linux v7.7.3 - 2017-03-21T18:24:15.241Z</tspan>
-<tspan x="10" y="1802">|   21544 ms            0 failed        6 passed      |</tspan>
-<tspan x="10" y="1818">-------------------------------------------------------</tspan>
+<tspan x="10" y="1498">browserTest - exit-code 0 - http://127.0.0.1:42934?modeTest=1</tspan>
+<tspan x="10" y="1514"></tspan>
+<tspan x="10" y="1530"></tspan>
+<tspan x="10" y="1546">browserTest - merged coverage from /home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/coverage.n\</tspan>
+<tspan x="10" y="1562">pmTest.browser.%2F.json</tspan>
+<tspan x="10" y="1578"></tspan>
+<tspan x="10" y="1594"></tspan>
+<tspan x="10" y="1610">browserTest - merging test-report from /home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/test-r\</tspan>
+<tspan x="10" y="1626">eport.npmTest.browser.%2F.json</tspan>
+<tspan x="10" y="1642"></tspan>
+<tspan x="10" y="1658">[node test-case 6 of 6 passed] - testCase_webpage_default</tspan>
+<tspan x="10" y="1674">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1690">File                         |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+<tspan x="10" y="1706">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1722">   node-npmdoc-uglifyjs/     |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1738">      example.js             |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1754">      lib.npmdoc_uglifyjs.js |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1770">      test.js                |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1786">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1802">All files                    |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1818">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
 <tspan x="10" y="1834"></tspan>
-<tspan x="10" y="1850">created test-report file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/build/test-report.\</tspan>
-<tspan x="10" y="1866">html</tspan>
+<tspan x="10" y="1850">created coverage file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/build/coverage.html/i\</tspan>
+<tspan x="10" y="1866">ndex.html</tspan>
 <tspan x="10" y="1882"></tspan>
-<tspan x="10" y="1898"></tspan>
-<tspan x="10" y="1914">npmTest - 0 failed tests</tspan>
-<tspan x="10" y="1930"></tspan>
-<tspan x="10" y="1946"></tspan>
-<tspan x="10" y="1962">[MODE_BUILD=npmTest] - 2017-03-21T18:24:39Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="1898">/home/travis/build/npmdoc/node-npmdoc-uglifyjs/node_modules/utility2/lib.utility2.sh.html.js</tspan>
+<tspan x="10" y="1914"> #1 Line too long.</tspan>
+<tspan x="10" y="1930">    process.stdout.write('export npm_package_' + key.replace((/\W/g), '_') + '=' + JSON.stringif\</tspan>
+<tspan x="10" y="1946">y(value) + ';'); // Line 1445, Pos 116</tspan>
+<tspan x="10" y="1962"></tspan>
+<tspan x="10" y="1978">merging file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/build/test-report.json to test\</tspan>
+<tspan x="10" y="1994">-report</tspan>
+<tspan x="10" y="2010"></tspan>
+<tspan x="10" y="2026">-------------------------------------------------------</tspan>
+<tspan x="10" y="2042">| test-report - buildNpmdoc - node - linux v6.10.1 - 2017-03-25T12:48:31.073Z</tspan>
+<tspan x="10" y="2058">|   21709 ms            0 failed        6 passed      |</tspan>
+<tspan x="10" y="2074">-------------------------------------------------------</tspan>
+<tspan x="10" y="2090"></tspan>
+<tspan x="10" y="2106">created test-report file:///home/travis/build/npmdoc/node-npmdoc-uglifyjs/tmp/build/test-report.\</tspan>
+<tspan x="10" y="2122">html</tspan>
+<tspan x="10" y="2138"></tspan>
+<tspan x="10" y="2154"></tspan>
+<tspan x="10" y="2170">npmTest - 0 failed tests</tspan>
+<tspan x="10" y="2186"></tspan>
+<tspan x="10" y="2202"></tspan>
+<tspan x="10" y="2218">[MODE_BUILD=npmTest] - 2017-03-25T12:48:55Z - EXIT_CODE - 0</tspan>
 </text>
 </svg>

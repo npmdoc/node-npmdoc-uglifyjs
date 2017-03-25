@@ -46,7 +46,7 @@
     font-weight: bold;
 }
 </style>
-<h1>api-documentation for
+<h1>api documentation for
     <a
 
         href="http://lisperator.net/uglifyjs"
@@ -13748,18 +13748,9 @@
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.uglifyjs.Buffer.prototype.toLocaleString">
-            function <span class="apidocSignatureSpan">uglifyjs.Buffer.prototype.</span>toLocaleString
-            <span class="apidocSignatureSpan">(encoding, start, end)</span>
-            </a>
-
-        </li>
-
-        <li>
-
             <a class="apidocElementLiA" href="#apidoc.element.uglifyjs.Buffer.prototype.toString">
             function <span class="apidocSignatureSpan">uglifyjs.Buffer.prototype.</span>toString
-            <span class="apidocSignatureSpan">(encoding, start, end)</span>
+            <span class="apidocSignatureSpan">()</span>
             </a>
 
         </li>
@@ -36541,7 +36532,7 @@ if (mangle) {
       return string.byteLength;
     }
 
-    throw new TypeError(&#x27;&#x22;string&#x22; must be a string, Buffer, or ArrayBuffer&#x27;);
+    string = &#x27;&#x27; + string;
   }
 
   var len = string.length;
@@ -37023,10 +37014,12 @@ return text.replace(/\{(.+?)\}/g, function(str, p){
     <li>description and source-code<pre class="apidocCodePre">function inspect() {
   var str = &#x27;&#x27;;
   var max = exports.INSPECT_MAX_BYTES;
-  str = this.toString(&#x27;hex&#x27;, 0, max).replace(/(.{2})/g, &#x27;$1 &#x27;).trim();
-  if (this.length &#x3e; max)
-    str += &#x27; ... &#x27;;
-  return `&#x3c;${this.constructor.name} ${str}&#x3e;`;
+  if (this.length &#x3e; 0) {
+    str = this.toString(&#x27;hex&#x27;, 0, max).match(/.{2}/g).join(&#x27; &#x27;);
+    if (this.length &#x3e; max)
+      str += &#x27; ... &#x27;;
+  }
+  return &#x27;&#x3c;&#x27; + this.constructor.name + &#x27; &#x27; + str + &#x27;&#x3e;&#x27;;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -37626,41 +37619,18 @@ else if (val !== skip) {
 
 
     <h2>
-        <a href="#apidoc.element.uglifyjs.Buffer.prototype.toLocaleString" id="apidoc.element.uglifyjs.Buffer.prototype.toLocaleString">
-        function <span class="apidocSignatureSpan">uglifyjs.Buffer.prototype.</span>toLocaleString
-        <span class="apidocSignatureSpan">(encoding, start, end)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">toLocaleString = function (encoding, start, end) {
-  let result;
-  if (arguments.length === 0) {
-    result = this.utf8Slice(0, this.length);
-  } else {
-    result = slowToString(this, encoding, start, end);
-  }
-  if (result === undefined)
-    throw new Error(&#x27;&#x22;toString()&#x22; failed&#x27;);
-  return result;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
         <a href="#apidoc.element.uglifyjs.Buffer.prototype.toString" id="apidoc.element.uglifyjs.Buffer.prototype.toString">
         function <span class="apidocSignatureSpan">uglifyjs.Buffer.prototype.</span>toString
-        <span class="apidocSignatureSpan">(encoding, start, end)</span>
+        <span class="apidocSignatureSpan">()</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">toString = function (encoding, start, end) {
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
   let result;
   if (arguments.length === 0) {
     result = this.utf8Slice(0, this.length);
   } else {
-    result = slowToString(this, encoding, start, end);
+    result = slowToString.apply(this, arguments);
   }
   if (result === undefined)
     throw new Error(&#x27;&#x22;toString()&#x22; failed&#x27;);
