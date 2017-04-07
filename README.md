@@ -1,11 +1,13 @@
-# api documentation for  [uglifyjs (v2.4.10)](http://lisperator.net/uglifyjs)  [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-uglifyjs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-uglifyjs)
+# api documentation for  [uglifyjs (v2.4.10)](http://lisperator.net/uglifyjs)  [![npm package](https://img.shields.io/npm/v/npmdoc-uglifyjs.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-uglifyjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-uglifyjs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-uglifyjs)
 #### JavaScript parser, mangler/compressor and beautifier toolkit
 
 [![NPM](https://nodei.co/npm/uglifyjs.png?downloads=true)](https://www.npmjs.com/package/uglifyjs)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-uglifyjs/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-uglifyjs_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-uglifyjs/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-uglifyjs/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-uglifyjs_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-uglifyjs/build/apidoc.html)
 
-![package-listing](https://npmdoc.github.io/node-npmdoc-uglifyjs/build/screen-capture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-uglifyjs/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-uglifyjs/build/screenCapture.npmPackageDependencyTree.svg)
 
 
 
