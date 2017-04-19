@@ -1,20 +1,20 @@
 <svg height="270" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="270" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-19 18:18:10 +0000   351589 bytes  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-19 18:18:10 +0000     1348 bytes  LICENSE</tspan>
-<tspan x="10" y="58">  2.  2017-04-19 18:18:10 +0000    27917 bytes  README.md</tspan>
-<tspan x="10" y="74">  3.  2017-04-19 18:18:10 +0000    15946 bytes  bin/uglifyjs</tspan>
-<tspan x="10" y="90">  4.  2017-04-19 18:18:10 +0000    32788 bytes  lib/ast.js</tspan>
-<tspan x="10" y="106">  5.  2017-04-19 18:18:10 +0000   108295 bytes  lib/compress.js</tspan>
-<tspan x="10" y="122">  6.  2017-04-19 18:18:10 +0000    18777 bytes  lib/mozilla-ast.js</tspan>
-<tspan x="10" y="138">  7.  2017-04-19 18:18:10 +0000    44423 bytes  lib/output.js</tspan>
-<tspan x="10" y="154">  8.  2017-04-19 18:18:10 +0000    53751 bytes  lib/parse.js</tspan>
-<tspan x="10" y="170">  9.  2017-04-19 18:18:10 +0000    21096 bytes  lib/scope.js</tspan>
-<tspan x="10" y="186"> 10.  2017-04-19 18:18:10 +0000     3460 bytes  lib/sourcemap.js</tspan>
-<tspan x="10" y="202"> 11.  2017-04-19 18:18:10 +0000     6942 bytes  lib/transform.js</tspan>
-<tspan x="10" y="218"> 12.  2017-04-19 18:18:10 +0000     9101 bytes  lib/utils.js</tspan>
-<tspan x="10" y="234"> 13.  2017-04-19 18:18:10 +0000     2286 bytes  package.json</tspan>
-<tspan x="10" y="250"> 14.  2017-04-19 18:18:10 +0000     5459 bytes  tools/node.js</tspan>
+<tspan x="10" y="26">  0.  2017-04-19 18:19:23 +0000   351589 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-19 18:19:23 +0000     1348 bytes  LICENSE</tspan>
+<tspan x="10" y="58">  2.  2017-04-19 18:19:23 +0000    27917 bytes  README.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-19 18:19:23 +0000    15946 bytes  bin/uglifyjs</tspan>
+<tspan x="10" y="90">  4.  2017-04-19 18:19:23 +0000    32788 bytes  lib/ast.js</tspan>
+<tspan x="10" y="106">  5.  2017-04-19 18:19:23 +0000   108295 bytes  lib/compress.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-19 18:19:23 +0000    18777 bytes  lib/mozilla-ast.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-19 18:19:23 +0000    44423 bytes  lib/output.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-19 18:19:23 +0000    53751 bytes  lib/parse.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-19 18:19:23 +0000    21096 bytes  lib/scope.js</tspan>
+<tspan x="10" y="186"> 10.  2017-04-19 18:19:23 +0000     3460 bytes  lib/sourcemap.js</tspan>
+<tspan x="10" y="202"> 11.  2017-04-19 18:19:23 +0000     6942 bytes  lib/transform.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-19 18:19:23 +0000     9101 bytes  lib/utils.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-19 18:19:23 +0000     2286 bytes  package.json</tspan>
+<tspan x="10" y="250"> 14.  2017-04-19 18:19:23 +0000     5459 bytes  tools/node.js</tspan>
 </text>
 </svg>
